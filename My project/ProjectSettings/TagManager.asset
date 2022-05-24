@@ -9,6 +9,7 @@ TagManager:
   - Fly
   - Animal
   - Water
+  - Npc
   layers:
   - Default
   - TransparentFX
