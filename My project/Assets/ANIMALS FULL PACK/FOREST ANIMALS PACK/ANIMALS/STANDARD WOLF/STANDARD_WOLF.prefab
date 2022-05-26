@@ -135,9 +135,11 @@ GameObject:
   - component: {fileID: 5306946943356690639}
   - component: {fileID: 7374557600982178561}
   - component: {fileID: 4678681351372371338}
+  - component: {fileID: 5388935370980147772}
+  - component: {fileID: 2828002018956726627}
   m_Layer: 20
   m_Name: STANDARD_WOLF
-  m_TagString: Animal
+  m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,7 +152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258556233457909670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.9187775, y: 0.006454468, z: 2.3662677}
+  m_LocalPosition: {x: 27, y: 2, z: 60}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6399286197595212875}
@@ -689,6 +691,36 @@ MonoBehaviour:
   m_Random: Random
   m_DeltaAngle: DeltaAngle
   m_Strafe: Strafe
+--- !u!114 &5388935370980147772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258556233457909670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c989e2491fda8ee41ae422fa3670329c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: d23217f8052a72e468fb03a1119750d4, type: 2}
+  slide: {fileID: 0}
+--- !u!65 &2828002018956726627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258556233457909670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.0008438, z: 3.0067444}
+  m_Center: {x: 0, y: 0.792117, z: -0.079078674}
 --- !u!1 &1507177014929955283
 GameObject:
   m_ObjectHideFlags: 0
