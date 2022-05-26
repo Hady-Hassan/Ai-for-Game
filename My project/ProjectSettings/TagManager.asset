@@ -10,6 +10,8 @@ TagManager:
   - Animal
   - Water
   - Npc
+  - Enemy
+  - Rocks
   layers:
   - Default
   - TransparentFX
