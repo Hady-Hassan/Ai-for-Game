@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
     void Update()
     {
         health = slide.value;
-        Debug.Log("health = " + slide.value);
+        
         if (health == 0)
         {
             Debug.Log("game over");

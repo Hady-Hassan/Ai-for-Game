@@ -1328,9 +1328,9 @@ MonoBehaviour:
   - active: 1
     ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
     value:
-      UseConstant: 1
+      UseConstant: 0
       ConstantValue: 100
-      Variable: {fileID: 0}
+      Variable: {fileID: 11400000, guid: d23217f8052a72e468fb03a1119750d4, type: 2}
     maxValue:
       UseConstant: 1
       ConstantValue: 100
@@ -1688,6 +1688,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2068885593889778808, guid: da7a70bd31ab3094ab6e6fb124e4c905, type: 3}
+      propertyPath: speedSets.Array.data[0].Speeds.Array.data[0].position.ConstantValue
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068885593889778808, guid: da7a70bd31ab3094ab6e6fb124e4c905, type: 3}
+      propertyPath: speedSets.Array.data[0].Speeds.Array.data[1].position.ConstantValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068885593889778808, guid: da7a70bd31ab3094ab6e6fb124e4c905, type: 3}
+      propertyPath: speedSets.Array.data[0].Speeds.Array.data[2].position.ConstantValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2068885593889778811, guid: da7a70bd31ab3094ab6e6fb124e4c905, type: 3}
       propertyPath: m_UseGravity
       value: 1

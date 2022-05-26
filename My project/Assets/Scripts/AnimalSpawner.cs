@@ -7,7 +7,7 @@ public class AnimalSpawner : MonoBehaviour
     public GameObject[] NPCs;
     public GameObject[] loaded;
     public float timer = 20;
-    public int lionScore = 0;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -30,10 +30,7 @@ public class AnimalSpawner : MonoBehaviour
         }
     }
 
-    void addpoint()
-    {
-        lionScore++;
-    }
+
 
     void spawn()
     {
