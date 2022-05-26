@@ -22,7 +22,7 @@ public class AnimalSpawner : MonoBehaviour
 
         loaded = GameObject.FindGameObjectsWithTag("Npc");
 
-        if (timer <= 0)
+        if (timer <= 0 || loaded.Length==0)
         {
             timer = 20;
             spawn();
