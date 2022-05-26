@@ -9,7 +9,7 @@ BlendTree:
   m_Name: Locomotion Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: -5252816984213320552, guid: 4a7dbd693c0179b4484771e68ecce3a2, type: 3}
+    m_Motion: {fileID: 1827226128182048838, guid: d9172320d0c95b0448efe2b7ae5e5e43, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -17,7 +17,7 @@ BlendTree:
     m_DirectBlendParameter: Vertical
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -3419257869308726280, guid: 4a7dbd693c0179b4484771e68ecce3a2, type: 3}
+    m_Motion: {fileID: 1827226128182048838, guid: 9a09c62c3ac56bf49bd6ef8317b0226a, type: 3}
     m_Threshold: 1
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -25,7 +25,7 @@ BlendTree:
     m_DirectBlendParameter: Vertical
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 6200578666267062213, guid: 4a7dbd693c0179b4484771e68ecce3a2, type: 3}
+    m_Motion: {fileID: 1827226128182048838, guid: 9aeb1a3d13556a84391cbeb29dd48765, type: 3}
     m_Threshold: 3
     m_Position: {x: 0, y: 3}
     m_TimeScale: 1
@@ -107,7 +107,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 8283304001768263659, guid: 2c2bd3d067467cd4280c1f645dda39e2, type: 3}
+  m_Motion: {fileID: 1827226128182048838, guid: 1894cbf905e621a458a58dd279818bc9, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -175,7 +175,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WolfAnim
+  m_Name: Cow Anim 3
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Vertical
@@ -183,7 +183,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

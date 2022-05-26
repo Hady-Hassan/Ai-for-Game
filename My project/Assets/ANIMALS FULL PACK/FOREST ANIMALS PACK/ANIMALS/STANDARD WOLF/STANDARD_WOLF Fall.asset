@@ -15,7 +15,7 @@ MonoBehaviour:
   Active: 1
   ID: {fileID: 11400000, guid: 8078fbdb01991b44b9c1351f444b5efe, type: 2}
   Input: 
-  Priority: 0
+  Priority: 3
   General:
     modify: -1
     RootMotion: 0
